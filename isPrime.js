@@ -43,11 +43,6 @@ function primeDifference(number) {
   return next - number;
 }
 
-primeDifference(17); // 2, since the next prime number after 17 is 19 (19 - 17 = 2)
-primeDifference(24); // 0, since 24 is not prime
-primeDifference(5); // 3, since the next prime number after 10 is 13 (13 - 10 = 3)
-primeDifference(1); // 2, since the next prime number after 1 is 2 (2 - 1 = 1)
-
 // example usage
 console.log(primeDifference(17)); // 2, since the next prime number after 17 is 19 (19 - 17 = 2)
 console.log(primeDifference(24)); // 0, since 24 is not prime
